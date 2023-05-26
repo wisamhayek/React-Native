@@ -1,7 +1,7 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 
-import homeScreen from "../screens/homeScreen";
+import HomeScreen from "../screens/homeScreen";
 import About from "../screens/About";
 import Contact from "../screens/Contact";
 
@@ -18,7 +18,7 @@ const Stack = createStackNavigator();
 const MainStackNavigator = () => {
   return (
     <Stack.Navigator screenOptions={screenOptionStyle} >
-      <Stack.Screen name="Home" component={homeScreen} />
+      <Stack.Screen name="Home" component={HomeScreen} />
       <Stack.Screen name="About" component={About} />
     </Stack.Navigator>
   );

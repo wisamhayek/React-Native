@@ -14,7 +14,7 @@ const DrawerNavigator = () => {
       <Drawer.Screen name="Contact" component={ContactStackNavigator} />
       <Drawer.Screen name="Chance" component={ChanceTabNavigator} />
       <Drawer.Screen name="Average" component={AverageTabNavigator} />
-      <Drawer.Screen name="Profile" component={()=>(null)} />
+      {/* <Drawer.Screen name="Profile" component={()=>(null)} /> */}
     </Drawer.Navigator>
   );
 }
